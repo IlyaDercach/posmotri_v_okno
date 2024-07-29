@@ -39,6 +39,18 @@ ol {
   list-style: none;
 }
 
+.title {
+	font-weight: 700;
+	font-size: 75px;
+	line-height: 94%;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.content__accent {
+	color: #545050;
+}
+
 .search-form__fieldset-title {
 	font-weight: 400;
 	font-size: 18px;
@@ -113,4 +125,39 @@ ol {
 	width: 194px;
 	height: 34px;
 	align-self: flex-end;
+}
+
+.content__list-item:not(:last-child){
+	margin-bottom: 32px;
+}
+
+.content__video-card {
+	display: flex;
+}
+
+.content__video-card-description-container{
+	flex-grow: 1;
+}
+
+.content__video-card-thumbnail {
+	max-width: 194px;
+	max-height: 103px;
+	object-fit: contain;
+}
+
+.result__video-container, .content__list {
+	position: relative;
+}
+
+.content__card-link {
+	text-decoration: none;
+	color: #fff;
+}
+
+.content__video-card-title {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 100%;
+	text-transform: uppercase;
+	color: #fff;
 }
